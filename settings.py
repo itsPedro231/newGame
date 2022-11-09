@@ -58,7 +58,8 @@ class Map:
     print(posx)
     for x in availablePos:  
       print(x)  
-
+aaaaa
+itPedro
 map = Map()
 map.base(10,10)
 
