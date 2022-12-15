@@ -4,9 +4,9 @@ from math import sin
 class Entity(pygame.sprite.Sprite):
   def __init__(self, groups):
     super().__init__(groups)
-    self.framIndex = 0
+    self.frameIndex = 0
     self.animationSpeed = 0.15
-    self.direction = pygame.math.Vector()
+    self.direction = pygame.math.Vector2()
 
   def move(self, speed):
     if self.direction.magnitude() != 0:
